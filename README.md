@@ -1,10 +1,10 @@
 # Linguagem de Programação I - Linguagem COBOL
 
-Repositório da disciplina ILP510A Linguagem de Programação I - COBOL. FATEC São Paulo.
+Repositório da disciplina ILP510A Linguagem de Programação I - COBOL. FATEC São Paulo. 02/2023
 
 Disciplina ministrada usando a linguagem COBOL.
 
-Professor: [HIROMASA NAGATA](.)
+Professor: HIROMASA NAGATA
 
 ## Index
 
