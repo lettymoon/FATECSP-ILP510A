@@ -1,0 +1,21 @@
+# Arquivos temporários gerados durante a compilação COBOL
+*.lst
+*.out
+*.o
+*.obj
+*.int
+
+# Arquivos binários ou de objeto gerados durante a compilação
+*.dll
+*.so
+*.exe
+
+# Arquivos de saída gerados durante a execução
+*.dat
+*.idx
+*.idx*
+*.bak
+
+# Diretórios que podem conter arquivos temporários
+/cobol_proj/build/
+/cobol_proj/bin/
