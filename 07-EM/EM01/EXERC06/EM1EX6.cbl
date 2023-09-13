@@ -1,5 +1,5 @@
        identification division.
-       program-id. EX04.
+       program-id. EX06.
        author. Leticia Candido.
        installation. FATEC - SP.
        date-written. 12/09/2023.
@@ -8,28 +8,30 @@
 
        environment division.
        configuration section.
-           object-computer. laptop-letty.
+           object-computer. ibm-pc.
            special-names. decimal-point is comma.
 
        input-output section.
        file-control.
-           select CADALU assign to disk
+           select CADENT assign to disk
                    organization is line sequential.
-           select  CADATU assign to disk
+           select  CADSAI assign to disk
                    organization is line sequential.
        
        data division.
        file section.
 
-       fd CADALU.
+       fd CADENT.
        01 reg-ent.
-          02 num-ent  pic 9(05).
-          02 nome-ent pic x(20).
-          02 sexo-ent pic x(01).
-       fd CADATU.
+          02 matricula-ent  pic 9(05).
+          02 nome-ent       pic x(30).
+          02 salario-ent    pic 9(4)V99.
+
+       fd CADSAI.
        01  reg-sai.
-          03 num-sai  pic 9(05).
-          03 nome-sai pic x(20).
+          02 matricula-sai  pic 9(05).
+          02 nome-sai       pic x(30).
+          02 salario-sai    pic 9(4)V99.
 
        working-storage section.
           77 fim-arq-ent pic x value "N".
@@ -41,23 +43,22 @@
            stop run.
 
            inicio.
-               open input CADALU output CADATU
+               open input CADENT output CADSAI
                perform leitura.
-           leitura.
-               read CADALU
-                   at end move "S" to fim-arq-ent.
-           principal.
-               perform selecao.
-               perform leitura.
-           
-           selecao.
-               if sexo-ent = "M" or sexo-ent = "m"
-                   perform gravacao.
 
-           gravacao.
-               move num-ent  to num-sai.
-               move nome-ent to nome-sai.
-               write reg-sai.
+           leitura.
+               read CADENT
+                   at end move "S" to fim-arq-ent
+               end-read.
+
+           principal.
+               if salario-ent is greater than 3000
+                   move matricula-ent to matricula-sai
+                   move nome-ent to nome-sai
+                   move salario-ent to salario-sai
+                   write reg-sai
+               end-if
+               perform leitura.
 
            fim.
-               close CADALU CADATU.
+           close CADENT CADSAI.
