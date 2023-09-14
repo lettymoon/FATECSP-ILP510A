@@ -52,13 +52,15 @@ hello
 ### Aulas
 
 - [Aula 01: Introdução à linguagem COBOL](01-introducao)
-- [Aula 02: IDENTIFICATION e ENVIRONMENT DIVISION](02-estrutura-cobol)
+- [Aula 02: Identification e Environment Division](02-estrutura-cobol)
 - [Aula 03: Fluxograma e DATA/PROCEDURE](03-estrutura-cobol)
 - [Aula 04: Comandos aritméticos](04-comandos-aritmeticos)
 - [Aula 05: Exercício de fixação](05-exercicios-fixacao)
-- [Aula 06: Comandos de seleção](06-comandos-selecao)
-- [Aula 07: Lista de exercícios](07-EM)
+- [Aula 06: Comandos de seleção/epetição](06-comandos-selecao-repeticao)
+  - [Exercícios de fixação](06-comandos-selecao-repeticao/exercicios-fixacao)
+- [Aula 07: Lista de exercícios EM1 e P1](07-EM1)
+- [Aula 08: Impressões de relatórios](08-impressoes-relatorios)
 
 ## Links Didáticos
 
-[-](.)
+[Learn COBOL - tutorials point](https://www.tutorialspoint.com/cobol/index.htm)
