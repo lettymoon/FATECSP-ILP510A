@@ -1,0 +1,16 @@
+                                                                                                    
+DATA: 23/10/23    RELATORIO DE MATERIAL EM ESTOQUE                                        PAG. 01   
+
+CODIGO          NOME          QTDE DO ESTOQUE          CUSTO UNITARIO          CUSTO TOTAL          
+00001            Apple Pie              00050                000005              000016200          
+00002            Coffee                 00500                000002              000012000          
+00003            Peach Pie              00500                000002              000012000          
+00004            Straebrry Jam          00500                000002              000012000          
+00005            Gingerbread            00500                000002              000012000          
+00006            English Tea            00500                000002              000012000          
+00007            Pancakes               00500                000002              000012000          
+00008            Cinnamon Rolls         00500                000002              000012000          
+00010            Pumpkin Pie            00500                000002              000012000          
+00011            Brownie                00500                000002              000012000          
+00012            Cookie                 00500                000002              000012000          
+00013            Scones                 00500                000002              000012000          
