@@ -32,7 +32,8 @@
                02 NOME-SOC-ENT PIC X(30).
                02 VALOR-PAG-ENT PIC 9(09)V9(02).
        FD CADSOC2
-           LABEL RECORD IS OMITTED.
+           LABEL RECORD ARE STANDARD
+          VALUE OF FILE-ID IS "CASOC2.DAT".
            01 REG-CADSOC2.
                02 NUM-SOC-SAI  PIC 9(06).
                02 NOME-SOC-SAI PIC X(30).

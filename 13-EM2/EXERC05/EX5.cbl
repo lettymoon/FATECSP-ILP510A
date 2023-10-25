@@ -39,7 +39,7 @@
        
        FD ARQREP
            LABEL RECORD ARE STANDARD
-           VALUE OF FILE-IS IS "ARQALU".
+           VALUE OF FILE-ID IS "ARQREP.DAT".
 
        01 REG-REP.
            02 MATR-SAI  PIC 9(7).
