@@ -58,12 +58,12 @@ hello
 - [Aula 05: Exercício de fixação](05-exercicios-fixacao)
 - [Aula 06: Comandos de seleção/repetição](06-comandos-selecao-repeticao)
   - [Exercícios de fixação](06-comandos-selecao-repeticao/exercicios-fixacao)
-- [Aula 07: Lista de exercícios EM1](07-EM1)
+- [Aula 07: EM - Exercícios de Máquina 01](07-EM1)
 - [Aula 08: Impressões de relatórios](08-impressoes-relatorios)
 - [Aula 09: Nível 88](09-nivel88)
 - [Aula 10 e 11: Vetor](10-vetor)
 - [Aula 12: Teoria de Redefines](12-redefines)
-- [Aula 13: Lista de exercícios EM2](13-EM2)
+- [Aula 13: EM - Exercícios de Máquina 02](13-EM2)
 - [Aula 14: Sort Teoria](14-sort)
 
 ## Links Didáticos
