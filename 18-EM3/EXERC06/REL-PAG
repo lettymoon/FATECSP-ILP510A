@@ -1,0 +1,11 @@
+                                                                                
+                             RELAT RIO DE PAGAMENTO                   PAG.   1  
+
+ DEPARTAMENTO  = 7                                                              
+ SECAO         = 9                                                              
+
+CODIGO  NOME                SAL.FIXO   COMISSAO  SAL.BRUTO  DESCONTO SAL.LIQUIDO
+00001 Ringo Starr            12548,00       3,00   12551,00    45,25   12505,75 
+
+TOTAL DE SALARIOS DA SECAO:      12.505,75                                      
+TOTAL DE SALARIOS DO DEPARTAMENTO:          12.505,75                           
