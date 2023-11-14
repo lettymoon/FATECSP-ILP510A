@@ -65,7 +65,7 @@ hello
 - [Aula 12: Teoria de Redefines](12-redefines)
 - [Aula 13: EM - Exercícios de Máquina 02](13-EM2)
 - [Aula 14: Sort Teoria](14-sort)
-- [18 - EM - Exercícios de Máquina 03](18-EM3)
+- [Aula 18: EM - Exercícios de Máquina 03](18-EM3)
 
 ## Links Didáticos
 
