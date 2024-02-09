@@ -66,6 +66,7 @@ hello
 - [Aula 13: EM - Exercícios de Máquina 02](13-EM2)
 - [Aula 14: Sort Teoria](14-sort)
 - [Aula 18: EM - Exercícios de Máquina 03](18-EM3)
+- [Aula 19: Teoria Balance](19-teoria-balance)
 
 ## Links Didáticos
 
